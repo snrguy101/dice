@@ -13,7 +13,7 @@ var randomImages = "dice" + randomNumber2 + ".png"
 
 var randomImagesurce1 = "images/" + randomImages;
 
-document.querySelector("img")[1].setAttribute("src", randomImagesurce1);
+document.querySelector(".img2").setAttribute("src", randomImagesurce1);
 
 
 if (randomNumber1 > randomNumber2) {
